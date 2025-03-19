@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 7px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-banner {
+    background-color: #373737;
+    padding-bottom: 130px;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    padding: 40px;
+    background-color: #e0e0e0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.grid-item1 {
+    padding: 40px;
+    background-color: #e0e0e0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.grid-item2 {
+    padding: 40px;
+    background-color: #e0e0e0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.grid-item3 {
+    padding: 40px;
+    background-color: #e0e0e0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.grid-item4 {
+    padding: 40px;
+    background-color: #e0e0e0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.grid-item5 {
+    padding: 40px;
+    background-color: #e0e0e0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.grid-item6 {
+    padding: 27px;
+    background-color: #e0e0e0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.gain {
+    color: #e0e0e0;
+    cursor: pointer;
+    text-decoration: underline;
+} 
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
